@@ -5,6 +5,10 @@ import mgrs
 
 
 def normalize_string(input_string):
+    """
+     * Adds missing zeros.
+     * '45°9′2.48N' to '45°09′02.48N'
+    """
     normalized_string = input_string
     while normalized_string.index('°') < 2:
         normalized_string = '0' + normalized_string
@@ -18,6 +22,9 @@ def normalize_string(input_string):
 
 
 def add_after_every_n(iterator, item_to_add='\n', after_every=2):
+    """
+         * Adds new line every 2 coordinates.
+    """
     for i, element in enumerate(iterator, 1):
         yield element + item_to_add
         if i % after_every == 0:
