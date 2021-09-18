@@ -52,7 +52,5 @@ if __name__ == '__main__':
         pyperclip.copy(clipboard_data)
     except ValueError:
         print('ValueError, check the coordinates are correct.')
-        input()
     except Exception as e:
         print(f'{e}')
-        input()
