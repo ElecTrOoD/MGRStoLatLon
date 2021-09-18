@@ -26,7 +26,7 @@ Or use source code:
  ```
 
 # How to use it
-1. Write down the coordinates you want and copy them using the keyboard shortcut CTRL + C
+1. Write down the coordinates you want and copy them using the keyboard shortcut `CTRL + C`
 ```
 37TDK9999999999 999ft
 37TDK8888888888 888ft
@@ -38,7 +38,7 @@ Or use source code:
  ```
  python main.py
  ```
-4. Paste the result wherever you want using the keyboard shortcut CTRL + V
+4. Paste the result wherever you want using the keyboard shortcut `CTRL + V`
 5. Done
 
 To record the coordinates recommend using a [dcs-scratchpad](https://github.com/rkusa/dcs-scratchpad)
